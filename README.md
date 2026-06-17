@@ -7,7 +7,7 @@ A mini social media web application that allows users to create profiles, share 
 * User Registration & Login Authentication
 * User Profiles
 * Create Posts
-* get all posts on Feed 
+* View Posts in User Feed
 * Comment on Posts
 * Like Posts
 * Follow / Unfollow Users
@@ -39,7 +39,7 @@ A mini social media web application that allows users to create profiles, share 
 
 ## 📂 Project Structure
 
-```
+```text
 Social_Media_App/
 │
 ├── frontend/
@@ -54,6 +54,7 @@ Social_Media_App/
 │   ├── Middleware
 │   └── Server Configuration
 │
+├── .gitignore
 └── README.md
 ```
 
@@ -113,6 +114,7 @@ MongoDB Atlas is used for storing:
 
 * User account creation and authentication
 * Post creation and management
+* Feed system for displaying posts
 * Comment system
 * Like functionality
 * Follow/Unfollow users
