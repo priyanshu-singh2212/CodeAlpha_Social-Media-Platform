@@ -7,7 +7,7 @@ A mini social media web application that allows users to create profiles, share 
 * User Registration & Login Authentication
 * User Profiles
 * Create Posts
-* View Posts in User Feed
+* View Posts of Users in Feed
 * Comment on Posts
 * Like Posts
 * Follow / Unfollow Users
