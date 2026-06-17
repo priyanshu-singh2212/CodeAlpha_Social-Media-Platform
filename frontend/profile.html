@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>My Profile</h2>
+
+        <div class="nav">
+
+            <a href="feed.html">Feed</a> |
+
+            <a href="users.html">Users</a> |
+
+            <a href="profile.html">Profile</a>
+
+            <button
+                class="logout-btn"
+                onclick="logout()">
+                Logout
+            </button>
+
+        </div>
+
+        <hr>
+
+        <!-- Profile Photo Upload -->
+
+        <input
+            type="file"
+            id="profileImageInput"
+            accept="image/*"
+        >
+
+        <button
+            type="button"
+            onclick="uploadProfileImage()">
+            Upload Profile Photo
+        </button>
+
+        <br><br>
+
+        <!-- Profile Data -->
+
+        <div id="profileContainer"></div>
+
+    </div>
+
+    <script src="js/profile.js"></script>
+
+</body>
+</html>
