@@ -69,7 +69,7 @@ git clone https://github.com/priyanshu-singh2212/CodeAlpha_-Social-Media-Platfor
 ### Navigate to Project
 
 ```bash
-cd CodeAlpha_-Social-Media-Platform
+cd CodeAlpha_Social-Media-Platform
 ```
 
 ### Install Dependencies
